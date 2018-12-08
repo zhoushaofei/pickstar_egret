@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameSkin" width="1136" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="1678ddde982" ></w:Config>
+	<e:Image source="background_jpg" left="0" top="0" right="0" bottom="0"/>
+	<e:Image id="ground" source="ground_png" bottom="0" left="0" right="0" height="160"/>
+	<e:Label id="readme" text="在星星消失前拾取他们，获得分数\n点击左半屏幕向左加速，点击右半屏幕向右加速" y="200" size="20" horizontalCenter="0" textAlign="center" lineSpacing="20" alpha="0.5"/>
+	<e:BitmapLabel id="score_txt" y="100" font="mikado_outline_shadow_fnt" text="Score: 0" horizontalCenter="-0.5" x="465.00000000000006" scaleX="1.5" scaleY="1.5"/>
+	<e:Image id="star" source="star_png" y="370.51" x="138" anchorOffsetX="30" anchorOffsetY="35.5"/>
+	<e:Image id="player" source="PurpleMonster_png" y="381.51" x="280" anchorOffsetY="67" anchorOffsetX="39"/>
+	<e:BitmapLabel id="gameover" y="258.5" font="mikado_outline_shadow_fnt" text="Game Over" scaleX="1.5" scaleY="1.5" horizontalCenter="0"/>
+	<e:Button id="btn_play" label="" y="381.51" width="200" height="60" horizontalCenter="-3">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_play_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

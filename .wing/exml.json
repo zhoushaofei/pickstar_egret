@@ -1,0 +1,11 @@
+{
+  "1678ddde982": {
+    "path": "app_src\\Game.ts",
+    "class": "Game",
+    "parentPath": ""
+  },
+  "global": {
+    "globalAdsorbEnable": true,
+    "globalRulerEnable": true
+  }
+}
